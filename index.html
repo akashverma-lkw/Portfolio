@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="shortcut icon" href="/imgs/pic2.png" type="image/x-icon">
+    <title>Portfolio | Akash Verma</title>
+</head>
+<div class="container" id="home">
+
+   
+    <!--   Navbar Design   -->
+
+    <div class="nav-bar">
+        <div class="portfolio">
+            <h1>Portfolio</h1>
+        </div>
+        <ul id="sidemenu">
+            <li><a href=""><span id="span-1">Home</span></a></span></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <a href="/Resume//Resume_new.pdf" download="Akash_resume">
+                <button class="btn">Download CV</button></a>
+                <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+        </ul>
+        <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+    </div>
+    <!--        Box1 - Design            -->
+
+    <div class="box1">
+        <div class="left-box">
+            <div class="heading1">
+                <div>Hi, My name is <span id="span-2">Akash Verma</span>
+                    <div> and I am working on </div>
+                </div>
+                <span id="element"></span>
+            </div>
+        </div>
+        <div class="right-box">
+            <img src="/imgs/prtfl1.svg" alt="" class="img1">
+        </div>
+    </div>
+
+    <!--       Box2 - Design            -->
+
+    <div class="box2">
+        <h1>Let’s
+            <br> Introduce more
+            <br>about myself</h1>
+    </div>
+
+    <hr class="hr-tag">
+    <hr class="hr-tag2">
+
+    <!--      Box3 - Design       -->
+
+    <div class="box3" id="about">
+        <div class="image-section">
+            <img src="/imgs/about.webp" alt="">
+        </div>
+        <div class="about-section">
+            <h1>About Me</h1>
+            <p>Full Stack Developer</p>
+            <div class="about-paragraph">
+                <p>I am a skilled web developer with lot of practice and experience in Web Tech. My passion lies in
+                    creating captivating website, designs and implementing them through frontend development.
+                    I take pride in staying up-to-date with current design trends and leveraging my creativity to
+                    produce
+                    visually appealing and user-friendly websites.
+                    Throughout my career,
+                    I have developed a deep understanding of user experience (UX) and user interface (Ul)
+                    principles. By putting myself in the shoes of the end-users, I strive to create
+                    intuitive and seamless
+                    browsing experiences. I believe that a well-designed website should not
+                    only look visually appealing but also provide a smooth and enjoyable interaction for visitors.
+                    When starting a new project,
+                    I thoroughly research and analyze the target audience and the client's specific requirements.
+                    This enables me to tailor my designs to meet their expectations
+                    and deliver a unique online presence that aligns with their brand identity..
+                </p>
+                <div class="div">
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                    </div>
+                    <!-- for skiils -->
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Web development</span><br>HTML CSS Javascript React JS</li>
+                            <li><span>Backend development</span><br>Node.js MongoDB</li>
+                            <li><span>Landing Pages</span><br>Make Dyanamic Landing Pages</li>
+                        </ul>
+                    </div>
+                    <!-- for education -->
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2024 - Current</span><br>Bachelor of Technology</li>
+                            <li><span>2017-2020</span><br>Diploma in Information Technology</li>
+                            <li><span>2015-2017</span><br>10<sup>th</sup> & 12<sup>th</sup> </li>
+                        </ul>
+                    </div>
+                    <!-- for experience -->
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>Frontend Developer</span><br>Familiar with HTML5, CSS3 & JS <br>React JS Dynamic
+                                Webpages </li>
+                            <li><span>Backend</span><br>Can handle backend logic</li>
+                            <li><span>DSA</span><br>Solved DSA problems basic to moderate level</li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!--      Box4 - Design       -->
+
+    <div class="box4" id="services">
+        <div id="services">
+            <div class="container-2">
+                <h1>My Services</h1>
+                <div class="services-list">
+                    <div>
+                        <!-- <i class="fa-solid fa-code"></i> -->
+                        <i class="fa-solid fa-file-code"></i>
+                        <h2>Web Development</h2>
+                        <p>As a web developer, I blend creativity with technical expertise to build websites and web
+                            applications that stand out. My work spans various aspects of web development:
+                            <br>Front-End Development, Back-End Development Full-Stack Solutions. I believe that knowing
+                            requirements and analysis of the project is the main key to bild a good project. </p>
+                        <a href="">Learn more</a>
+                    </div>
+                    <div>
+                        <!-- <i class="fa-solid fa-crop-simple"></i> -->
+                        <i class="fa-solid fa-server"></i>
+                        <h2>Backend Development</h2>
+                        <p>Backend development is the backbone of any web application, and I focus on delivering
+                            reliable
+                            and scalable solutions through. API Development, Database Management and Server-Side Logic.
+                            My approach to backend development is centered around building scalable and maintainable
+                            systems
+                            which depends on
+                            Requirements Analysis, Development and Integration and Deployment and Maintenance.
+                        </p>
+                        <a href="">Learn more</a>
+                    </div>
+                    <div>
+                        <!-- <i class="fa-brands fa-app-store"></i> -->
+                        <!-- <i class="fa-solid fa-diamond"></i> -->
+                        <i class="fa-solid fa-shop-lock"></i>
+                        <h2>Website Management</h2>
+                        <p>Website is more than just an online presence; it's a vital extension of a brand. At a
+                            company's
+                            project
+                            we specialize in taking the hassle out of website management, allowing you to
+                            focus on what you do best—running your business.Our comprehensive suite of services ensures
+                            that
+                            your website is not only visually appealing and user-friendly but also secure and
+                            up-to-date.
+                            From regular maintenance and performance optimization to content updates and security
+                            enhancements.
+                        </p>
+
+                        </p>
+                        <a href="">Learn more</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--       Box5 - Design       -->
+
+    <div class="box5">
+        <div class="container-3">
+            <h1>My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="/imgs/work-1.png" alt="">
+                    <div class="layer">
+                        <h3>E-Commerce Website</h3>
+                        <p>The app connect you to the talanted people around the world.
+                            Download it from play store.</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="/imgs/work-2.png" alt="">
+                    <div class="layer">
+                        <h3>Portfolio Website</h3>
+                        <p>The app connect you to the talanted people around the world.
+                            Download it from play store.</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="/imgs/work-3.png" alt="">
+                    <div class="layer">
+                        <h3>Database Manage</h3>
+                        <p>The app connect you to the talanted people around the world.
+                            Download it from play store.</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="see-btn">See more</a>
+        </div>
+    </div>
+    <!--       Box6 - Design       -->
+
+    <div class="box6">
+        <!-- <h1>My Projects</h1> -->
+    </div>
+
+    <!--      Footer - Design       -->
+
+    <footer>
+        <div class="footer-section">
+            <div class="left-footer">
+                <h1>Contact Me</h1>
+                <i class="fa-solid fa-envelope email"></i> <a href="">akashvermastp7@gmail.com</a><br>
+                <i class="fa-solid fa-phone number"></i></i> <a href="">+918887819616</a>
+                <div class="social-links">
+                    <a href=""><i class="fa-brands fa-instagram"></i></a>
+                    <a href=""><i class="fa-brands fa-facebook"></i></a>
+                    <a href=""><i class="fa-brands fa-whatsapp"></i></a>
+                    <a href="https://www.linkedin.com/public-profile/settings?trk=d_flagship3_profile_self_view_public_profile"
+                        target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+            </div>
+
+            <div class="right-footer" id="contact">
+                <form action="POST" name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" id="" rows="6" placeholder="Your Message"></textarea>
+                    <a href="#home"><button type="submit" class="submit-btn">Submit</button></a>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+       <div class="arrow">
+        <a href="#home"><i class="fa-solid fa-arrow-up"></i></a>
+       </div> 
+    </footer>
+
+    <div class="copyright">
+        <i class="fa-solid fa-copyright"></i> Developed by Akash Verma</p>
+    </div>
+</div>
+
+<!--   Javascript Code   -->
+
+<script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname) {
+        for (tablink of tablinks) {
+            tablink.classList.remove("active-link");
+        }
+        for (tabcontent of tabcontents) {
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab")
+    }
+</script>
+<script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+<script>
+    var typed = new Typed('#element', {
+        strings: ['Web Developing', 'Backend Developing', 'Web Designing', 'Freelancing . . . '],
+        typeSpeed: 130,
+        AnimationTimeline: Infinity,
+    });
+</script>
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbwq4cd9QJBjj1qWBcTDzqi9jOPtC5m2xoL77QG0PNiQ3Kfor6kXMFXs-hm88l58OAg-/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById('msg')
+
+    form.addEventListener('submit', e => {
+        e.preventDefault()
+        fetch(scriptURL, {
+                method: 'POST',
+                body: new FormData(form)
+            })
+            .then(response => {
+                msg.innerHTML = "Message Sent successfully !"
+                setTimeout(function(){
+                    msg.innerHTML = ""
+                },3000)
+                form.reset()
+            })
+            .catch(error => console.error('Error!', error.message))
+    })
+</script>
+<script>
+
+    var sidemenu = document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemenu.style.left = "0";
+
+    }
+    function closemenu(){
+        sidemenu.style.left = "-100%";
+    }
+    
+</script>
+
+<body>
+
+</body>
+
+</html>
