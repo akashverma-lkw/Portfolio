@@ -552,15 +552,7 @@ form a{
     color: #ff004f;
 }
 
-
-
-
-
-
-
-
-
-        /*         Responsive - Design         */
+ /*         Responsive - Design         */
 
 @media only screen and (max-width: 600px){
     *{
@@ -689,7 +681,6 @@ form a{
         background-color: rgb(255, 28, 7);    
     }
   
-  
     .img1{
         margin-top: -15px;
         margin-right: 20px;
@@ -702,7 +693,7 @@ form a{
     .box3{
         /* background-color: #61b752; */
         margin-top: 60px;
-        height: 165vh;
+        height: 120vh;
         display: block;
     }
     .image-section img{
@@ -754,7 +745,6 @@ form a{
         position: relative;
     }
     .tab-contents ul li{
-        
         /* background-color: rgba(77, 206, 18, 0.637); */
         list-style: none;
         color: rgba(255, 255, 255, 0.822);
@@ -762,9 +752,9 @@ form a{
         font-size: 25px;
     }
     .box4{
-        margin-top: 90px;
+        /* margin-top: 90px; */
         width: 100%;
-        height: 140vh;
+        height: 120vh;
         /* background: #61b752; */
     }
     .box4 h1{
@@ -778,10 +768,10 @@ form a{
     }
    
     .box5{
-        margin-top: 300px;
+        /* margin-top: 300px; */
         padding: 40px 0px;
         width: 100%;
-        height: 330vh;
+        height: 215vh;
         /* background-color: #854fee; */
     }
     .box5 h1{
@@ -824,9 +814,10 @@ form a{
         margin-top: 30px;
     }
     .social-links a{
+        /* background-color: #61b752; */
         text-decoration: none;
         font-size: 28px;
-        margin-right: 30px;
+        margin-right: 20px;
         margin-left: 10px;
         color: #ababab;
         display: inline-block;
@@ -841,24 +832,3 @@ form a{
         margin-right: 40px;
     }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
