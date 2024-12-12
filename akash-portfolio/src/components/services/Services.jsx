@@ -62,7 +62,7 @@ const Services = () => {
                 <div className="services__content">
                     <div>
                         <i class='bx bxl-redux services__icon'></i>
-                        <h3 className="services__title">UI/UX <br /> Designer</h3>
+                        <h3 className="services__title">UI/UX <br /> Design</h3>
                     </div>
 
                     <span className="services__button" onClick={() => toggleTab(2)}>View More <i className="uil uil-arrow-right services__button-icon"></i></span>
