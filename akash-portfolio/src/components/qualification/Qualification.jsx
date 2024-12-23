@@ -21,7 +21,7 @@ const Qualification = () => {
                           }
                           onClick={() => toggleTab(1)}
                           >
-                        <i className="uil uil-graduation-cap qualification__icon"></i> Education
+                        <i className="uil uil-graduation-cap qualification__icon"  id='experience'></i> Education
                     </div>
 
                     <div className={
@@ -31,7 +31,7 @@ const Qualification = () => {
                           }
                           onClick={() => toggleTab(2)}
                           >
-                        <i className="uil uil-briefcase-alt qualification__icon" id='experience'></i> Experience
+                        <i className="uil uil-briefcase-alt qualification__icon"></i> Experience
                     </div>
                 </div>
 
