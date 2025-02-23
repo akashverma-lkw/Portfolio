@@ -10,7 +10,8 @@ export const projectsData = [
       image: Work1,
       title: "Snapzy",
       category: "web",
-      link: "https://snapzy-ir49.onrender.com/login"
+      link: "https://snapzy-jdhz.onrender.com"
+      
     },
     {
       id: 2,
