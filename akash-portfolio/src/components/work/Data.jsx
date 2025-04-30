@@ -3,7 +3,7 @@ import Work2 from '../../assets/work/work2.jpg.webp'
 import Work3 from '../../assets/work/work3.jpg'
 import Work4 from '../../assets/work4.jpg'
 import Work5 from '../../assets/work5.jpg'
-import Work6 from '../../assets/work6.jpg'
+import Work6 from '../../assets/work6.png'
 
 export const projectsData = [
     {
