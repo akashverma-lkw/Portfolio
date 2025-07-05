@@ -1,4 +1,4 @@
-import Work1 from '../../assets/work/work1.jpg'
+import Work1 from '../../assets/work/snapzy-thumbnail.png'
 import Work2 from '../../assets/work/work2.jpg.webp'
 import Work3 from '../../assets/work/work3.jpg'
 import Work4 from '../../assets/work4.jpg'
