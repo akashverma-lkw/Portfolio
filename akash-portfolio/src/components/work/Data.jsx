@@ -11,7 +11,7 @@ export const projectsData = [
       image: Work1,
       title: "Snapzy",
       category: "web",
-      link: "https://img.freepik.com/free-vector/abstract-coming-soon-halftone-style-background-design_1017-27282.jpg"
+      link: "https://snapzy-nu.vercel.app"
       
     },
     {
