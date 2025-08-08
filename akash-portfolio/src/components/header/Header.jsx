@@ -1,6 +1,5 @@
 import React, { useState } from 'react'
 import './Header.css';
-import CV from '../../assets/new_resume.pdf';
 const Header = () => {
     /*=============== Change background header ===============*/
     window.addEventListener("scroll", function () {
