@@ -32,9 +32,9 @@ export const projectsData = [
     {
       id: 4,
       image: Work6,
-      title: "Resume Builder",
+      title: "AI Resume Builder",
       category: "web",
-      link: "https://resume-builder-dusky-three.vercel.app"
+      link: "https://llm-resume-builder.vercel.app/login"
     },
     {
       id: 5,
