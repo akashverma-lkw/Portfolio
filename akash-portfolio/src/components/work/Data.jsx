@@ -15,27 +15,31 @@ export const projectsData = [
       link: "https://snapzy-nu.vercel.app"
       
     },
+
     {
       id: 2,
-      image: Work7,
-      title: "finSecure",
-      category: "web",
-      link: "https://finsecure-xi.vercel.app"
-    },
-    {
-      id: 3,
-      image: Work2,
-      title: "Erica Ai",
-      category: "web",
-      link: "https://ai-ask-psi.vercel.app"
-    },
-    {
-      id: 4,
       image: Work6,
       title: "AI Resume Builder",
       category: "web",
       link: "https://llm-resume-builder.vercel.app/login"
     },
+
+    {
+      id: 3,
+      image: Work7,
+      title: "finSecure",
+      category: "web",
+      link: "https://finsecure-xi.vercel.app"
+    },
+    
+    {
+      id: 4,
+      image: Work2,
+      title: "Erica Ai",
+      category: "web",
+      link: "https://ai-ask-psi.vercel.app"
+    },
+    
     {
       id: 5,
       image: Work3,
