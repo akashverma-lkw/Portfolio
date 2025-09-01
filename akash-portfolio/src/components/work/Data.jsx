@@ -21,7 +21,7 @@ export const projectsData = [
       image: Work6,
       title: "AI Resume Builder",
       category: "web",
-      link: "https://llm-resume-builder.vercel.app/login"
+      link: "https://llm-resume-builder.vercel.app"
     },
 
     {
